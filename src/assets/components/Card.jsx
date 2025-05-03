@@ -4,7 +4,7 @@ const Card = () => {
   return (
     <div>
       <div className="max-w-xs bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-        <div className="relative">
+        <div className="relative w-md">
           <img
             className="size-56"
             src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1738681097/Croma%20Assets/Large%20Appliances/Air%20Cooler/Images/312923_0_qe9sdw.png"

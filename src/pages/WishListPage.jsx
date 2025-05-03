@@ -5,7 +5,7 @@ import Footer from "../assets/components/Footer";
 
 const WishListPage = () => {
   return (
-    <div className="bg-blue-100">
+    <div className="bg-blue-200">
       <Navbar />
       <WishList />
       <Footer />

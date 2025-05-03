@@ -3,7 +3,7 @@ import Footer from "../assets/components/Footer";
 
 import Card from "../assets/components/Card";
 import Navbar from "../assets/components/Navbar";
-const MobilesPage = () => {
+const AppliancePage = () => {
   return (
     <div className="bg-blue-200 shadow shadow-blue-200">
       <Navbar />
@@ -167,4 +167,4 @@ const MobilesPage = () => {
   );
 };
 
-export default MobilesPage;
+export default AppliancePage;

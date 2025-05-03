@@ -3,9 +3,9 @@ import Footer from "../assets/components/Footer";
 
 import Card from "../assets/components/Card";
 import Navbar from "../assets/components/Navbar";
-const MobilesPage = () => {
+const AccessoriesPage = () => {
   return (
-    <div className="bg-blue-200 shadow shadow-blue-200">
+    <div className="bg-blue-400 shadow shadow-gray-200">
       <Navbar />
       <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-8">
@@ -167,4 +167,4 @@ const MobilesPage = () => {
   );
 };
 
-export default MobilesPage;
+export default AccessoriesPage;

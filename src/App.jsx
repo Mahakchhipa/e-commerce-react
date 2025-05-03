@@ -1,20 +1,35 @@
 import React from "react";
-
+import { Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
-import WishList from "./assets/components/WishList";
+
 import MobilesPage from "./pages/MobilesPage";
 import WishListPage from "./pages/WishListPage";
+
+import ProductDesc from "./pages/ProductDesc";
+import CheckOutPage from "./pages/CheckOutPage";
+import AppliancePage from "./pages/AppliancesPage";
+import TvsPage from "./pages/TvsPage";
+import AccessoriesPage from "./pages/AccessoriesPage";
+import LaptopPage from "./pages/LaptopPage";
 
 const App = () => {
   return (
     <div>
-      <Homepage />
-      <LoginPage/>
-      <SignupPage/>
-       <WishListPage/>
-      <MobilesPage/>
+      <Routes>
+        <Route path="/home" element={<Homepage />} />
+        <Route path="/product" element={<ProductDesc />} />
+        <Route path="/checkout" element={<CheckOutPage />} />
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
+        <Route path="/wishlist" element={<WishListPage />} />
+        <Route path="/mobile" element={<MobilesPage />} />
+        <Route path="/appliancePage" element={<AppliancePage />} />
+        <Route path="/tvsPage" element={<TvsPage />} />
+        <Route path="/accessoriesPage" element={<AccessoriesPage />} />
+        <Route path="/laptoppage" element={<LaptopPage />} />
+      </Routes>
     </div>
   );
 };
