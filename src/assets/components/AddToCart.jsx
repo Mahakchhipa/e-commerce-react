@@ -8,10 +8,10 @@ const AddToCart = () => {
     <h2 className="text-2xl font-bold text-gray-800 mb-6">
       Your Shopping Cart
     </h2>
-    {'{'}/* Cart Items */{'}'}
+   
     <div className="bg-white shadow rounded-lg p-6 mb-8">
       <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-6">
-        <img src="https://images.unsplash.com/photo-1606813902494-4d3ef4d2ceea&quot;" alt="Product Image" className="w-32 h-32 object-cover rounded-md mb-4 md:mb-0" />
+        <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717426045/Croma%20Assets/Large%20Appliances/Air%20Cooler/Images/223253_0_bxsm2j.png" alt="Product Image" className="w-32 h-32 object-cover rounded-md mb-4 md:mb-0" />
         <div className="flex-1">
           <h3 className="text-lg font-semibold text-gray-900">
             Nothing Watch Pro 2 Smartwatch
@@ -40,7 +40,7 @@ const AddToCart = () => {
         </button>
       </div>
     </div>
-    {'{'}/* Order Summary */{'}'}
+   
     <div className="bg-white shadow rounded-lg p-6">
       <h3 className="text-lg font-semibold text-gray-900 mb-4">
         Order Summary

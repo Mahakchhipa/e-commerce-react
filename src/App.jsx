@@ -1,16 +1,20 @@
 import React from "react";
-import Navbar from "./assets/components/Navbar";
-import HeroSection from "./assets/components/HeroSection";
-import Footer from "./assets/components/Footer";
-import Banner from "./assets/components/Banner";
+
+import Homepage from "./pages/Homepage";
+import LoginPage from "./pages/LoginPage";
+import SignupPage from "./pages/SignupPage";
+import WishList from "./assets/components/WishList";
+import MobilesPage from "./pages/MobilesPage";
+import WishListPage from "./pages/WishListPage";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <HeroSection />
-      <Banner />
-      <Footer />
+      <Homepage />
+      <LoginPage/>
+      <SignupPage/>
+       <WishListPage/>
+      <MobilesPage/>
     </div>
   );
 };
