@@ -1,9 +1,16 @@
 import React from "react";
+import Navbar from "./assets/components/Navbar";
+import HeroSection from "./assets/components/HeroSection";
+import Footer from "./assets/components/Footer";
+import Banner from "./assets/components/Banner";
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-4xl font-bold text-red-400 text-center py-8"> My React Website project </h1>
+      <Navbar />
+      <HeroSection />
+      <Banner />
+      <Footer />
     </div>
   );
 };
