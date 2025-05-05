@@ -1,8 +1,11 @@
 import React from "react";
+import Navbar from "../assets/components/Navbar";
+import Footer from "../assets/components/Footer";
 
 const OrderTracking = () => {
   return (
     <div className="bg-blue-100">
+        <Navbar/>
       <section className="max-w-4xl mx-auto px-4 shadow-x py-12">
         <h2 className="text-3xl font-bold mb-8 text-center">
           Track Your Order
@@ -117,6 +120,7 @@ const OrderTracking = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 };

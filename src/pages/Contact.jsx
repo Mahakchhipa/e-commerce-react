@@ -1,8 +1,11 @@
 import React from "react";
+import Navbar from "../assets/components/Navbar";
+import Footer from "../assets/components/Footer";
 
 const Contact = () => {
   return (
     <div>
+        <Navbar/>
       <section className="max-w-6xl mx-auto px-4 py-12">
         <h2 className=" mb-8 text-center text-blue-900 font-bold text-4xl">Contact Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -121,8 +124,8 @@ const Contact = () => {
           <div className="w-full h-64">
             {/* Replace the src URL with your actual Google Maps embed link */}
             <iframe
-              src=" https://www.google.com/imgres?q=electronic%20images&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F356056%2Fpexels-photo-356056.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Felectronics%2F&docid=UCfixrwYRuRJHM&tbnid=L08jWEiysIT1IM&vet=12ahUKEwjZ-dnB64uNAxVL1TgGHf_CK18QM3oECGgQAA..i&w=500&h=332&hcb=2&ved=2ahUKEwjZ-dnB64uNAxVL1TgGHf_CK18QM3oECGgQAA"
-              width="100%"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1779.7153657080037!2d75.79604710319936!3d26.858052931838035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1744951913463!5m2!1sen!2sin&quot;"
+              width={1000}
               height={450}
               style={{ border: 0 }}
               allowFullScreen
@@ -131,7 +134,9 @@ const Contact = () => {
             />
           </div>
         </div>
+
       </section>
+      <Footer/>
     </div>
   );
 };

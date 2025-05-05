@@ -17,22 +17,22 @@ const Footer = () => {
       </h3>
       <ul className="mt-4 space-y-2 text-sm">
         <li>
-          <a href="#" className="hover:text-indigo-600">
+          <a href="/mobile" className="hover:text-indigo-600">
             Mobiles
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-indigo-600">
+          <Link to="/laptoppage" className="hover:text-indigo-600">
             Laptops
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" className="hover:text-indigo-600">
+          <a href="/tvsPage" className="hover:text-indigo-600">
             TVs
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-indigo-600">
+          <a href="/accessoriesPage" className="hover:text-indigo-600">
             Accessories
           </a>
         </li>

@@ -1,16 +1,18 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const ProductDesc = () => {
   return (
     <div>
       <section className=" py-12 bg-amber-400">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-2 gap-12">
           <div className="relative">
-            <img
+           <Link to="/product">
+           <img
               src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717426045/Croma%20Assets/Large%20Appliances/Air%20Cooler/Images/223253_0_bxsm2j.png"
               alt="Product Image"
               className="w-auto rounded-xl  shadow-lg"
             />
+           </Link>
             <span className="absolute top-4 left-4 bg-red-600 text-white text-xs font-semibold px-2 py-1 rounded">
               25% OFF
             </span>

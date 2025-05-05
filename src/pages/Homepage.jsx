@@ -16,13 +16,13 @@ const Homepage = () => {
         <h1 className="text-4xl font-bold text-gray-900 text-center my-6 ">
           New Products
         </h1>
-        <div className="flex flex-wrap  gap-4">
+        <div className="grid grid-cols-1 m-4 md:grid-cols-2 lg:grid-cols-4 px-4  bg-amber-200 lg:my-12 gap-5">
           <Card />
           <Card />
           <Card />
           <Card />
         </div>
-        <div className="flex flex-wrap  my-12 gap-4">
+        <div className="grid grid-cols-1  m-4 md:grid-cols-2 lg:grid-cols-4 px-10 lg:px-5  bg-amber-200 lg:my-12 gap-5">
           <Card />
           <Card />
           <Card />
@@ -34,13 +34,13 @@ const Homepage = () => {
         <h1 className="text-4xl font-bold text-gray-900 text-center my-6 ">
           New Products
         </h1>
-        <div className="flex flex-wrap  gap-4">
+        <div className="grid grid-cols-1 m-4 md:grid-cols-2 lg:grid-cols-4 px-10 lg:px-5  bg-amber-200 lg:my-12 gap-5">
           <Card />
           <Card />
           <Card />
           <Card />
         </div>
-        <div className="flex flex-wrap  my-12 gap-4">
+        <div className="grid grid-cols-1 m-4 md:grid-cols-2 lg:grid-cols-4 px-10 lg:px-5  bg-amber-200 lg:my-12 gap-5">
           <Card />
           <Card />
           <Card />
