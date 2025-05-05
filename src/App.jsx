@@ -13,6 +13,12 @@ import AppliancePage from "./pages/AppliancesPage";
 import TvsPage from "./pages/TvsPage";
 import AccessoriesPage from "./pages/AccessoriesPage";
 import LaptopPage from "./pages/LaptopPage";
+import OrderTracking from "./pages/OrderTracking";
+import Returns from "./pages/Returns";
+import TermsAndConditionPage from "./pages/TermsAndConditionPage";
+import Contact from "./pages/Contact";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
+import FAQ from "./pages/FAQ";
 
 const App = () => {
   return (
@@ -29,6 +35,12 @@ const App = () => {
         <Route path="/tvsPage" element={<TvsPage />} />
         <Route path="/accessoriesPage" element={<AccessoriesPage />} />
         <Route path="/laptoppage" element={<LaptopPage />} />
+        <Route path="/OrderTracking" element={<OrderTracking />} />
+        <Route path="/faq" element={<FAQ/>} />
+        <Route path="/returns" element={<Returns />} />
+        <Route path="/terms&conditons" element={<TermsAndConditionPage />} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/privacypolicy" element={<PrivacyPolicyPage />} />
       </Routes>
     </div>
   );

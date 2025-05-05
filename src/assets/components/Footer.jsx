@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
@@ -44,22 +44,22 @@ const Footer = () => {
       </h3>
       <ul className="mt-4 space-y-2 text-sm">
         <li>
-          <a href="#" className="hover:text-indigo-600">
+          <a href="/contact" className="hover:text-indigo-600 ">
             Contact Us
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-indigo-600">
+          <a href="/faq" className="hover:text-indigo-600">
             FAQs
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-indigo-600">
+          <a href="/returns" className="hover:text-indigo-600">
             Returns
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-indigo-600">
+          <a href="/OrderTracking" className="hover:text-indigo-600">
             Order Tracking
           </a>
         </li>

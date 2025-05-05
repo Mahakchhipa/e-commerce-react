@@ -8,9 +8,9 @@ const WishList = () => {
       <section className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl text-center text-red-700  font-bold italic mb-6">
-            My Wishlist
+            My Wishlist 
           </h2>
-          {/* Wishlist Items */}
+
           <div className="grid grid-cols-3 gap-8 ">
             <Card />
             <Card /> <Card /> <Card /> <Card /> <Card /> <Card /> <Card />{" "}
