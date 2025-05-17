@@ -6,7 +6,8 @@ import Card from "../assets/components/Card";
 import Banner from "../assets/components/Banner";
 import Footer from "../assets/components/Footer";
 
-const Homepage = () => {
+const Homepage = (props) => {
+  console.log(props.productdata)
   return (
     <div>
       <Navbar />

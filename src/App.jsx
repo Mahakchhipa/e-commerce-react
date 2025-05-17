@@ -19,12 +19,12 @@ import TermsAndConditionPage from "./pages/TermsAndConditionPage";
 import Contact from "./pages/Contact";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import FAQ from "./pages/FAQ";
-
+import productdata from "../src/utility/data.json"
 const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="/home" element={<Homepage />} />
+        <Route path="/home" element={<Homepage  productdata={productdata}/>} />
         <Route path="/product" element={<ProductDesc />} />
         <Route path="/checkout" element={<CheckOutPage />} />
         <Route path="/" element={<LoginPage />} />

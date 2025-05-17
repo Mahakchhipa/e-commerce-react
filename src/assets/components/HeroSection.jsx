@@ -1,6 +1,7 @@
 import React from "react";
 
 const HeroSection = () => {
+  
   return (
     <div>
       <section className="bg-gradient-to-r from-indigo-50 to-white py-12">
@@ -23,6 +24,7 @@ const HeroSection = () => {
           <div className="relative">
             <img
               alt="Electronics Banner"
+              loading="lazy"
               src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1746190988/Croma%20Assets/CMS/LP%20Page%20Banners/2025/campaigns/Summer%20saving%20days%20april/Day%203%2C4/Mobile/MLP_Summer_Category_Fans_3May2025_jva1n4.png "
               className="w-full rounded-xl shadow-lg"
             />
