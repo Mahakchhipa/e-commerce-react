@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../assets/components/Navbar";
-import Footer from "../assets/components/Footer";
+// import Navbar from "../assets/components/Navbar";
+// import Footer from "../assets/components/Footer";
 
 const Contact = () => {
   return (
     <div>
-        <Navbar/>
+        {/* <Navbar/> */}
       <section className="max-w-6xl mx-auto px-4 py-12">
         <h2 className=" mb-8 text-center text-blue-900 font-bold text-4xl">Contact Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -136,7 +136,7 @@ const Contact = () => {
         </div>
 
       </section>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 };

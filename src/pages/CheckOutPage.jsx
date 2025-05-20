@@ -1,14 +1,14 @@
 import React from 'react'
-import Navbar from '../assets/components/Navbar'
+// import Navbar from '../assets/components/Navbar'
 import AddToCart from '../assets/components/AddToCart'
-import Footer from '../assets/components/Footer'
+// import Footer from '../assets/components/Footer'
 
 const CheckOutPage = () => {
   return (
     <div>
-       <Navbar/>
+       {/* <Navbar/> */}
        <AddToCart/>
-       <Footer/>
+       {/* <Footer/> */}
     </div>
   )
 }

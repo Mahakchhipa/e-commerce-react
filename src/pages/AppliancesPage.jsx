@@ -1,12 +1,12 @@
 import React from "react";
-import Footer from "../assets/components/Footer";
+// import Footer from "../assets/components/Footer";
 
 import Card from "../assets/components/Card";
-import Navbar from "../assets/components/Navbar";
+// import Navbar from "../assets/components/Navbar";
 const AppliancePage = () => {
   return (
     <div className="bg-blue-200 shadow shadow-blue-200">
-      <Navbar />
+      {/* <Navbar /> */}
       <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-8">
           {/* Filters Sidebar */}
@@ -162,7 +162,7 @@ const AppliancePage = () => {
           </div>
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

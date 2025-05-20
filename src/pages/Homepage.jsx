@@ -1,16 +1,16 @@
 import React from "react";
-import Navbar from "../assets/components/Navbar";
+// import Navbar from "../assets/components/Navbar";
 import HeroSection from "../assets/components/HeroSection";
 import IconCards from "../assets/components/IconCards";
 import Card from "../assets/components/Card";
 import Banner from "../assets/components/Banner";
-import Footer from "../assets/components/Footer";
+// import Footer from "../assets/components/Footer";
 
 const Homepage = (props) => {
   console.log(props.productdata)
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSection />
       <IconCards />
       <div>
@@ -49,7 +49,7 @@ const Homepage = (props) => {
         </div>
       </div>
       <IconCards/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
    
   );

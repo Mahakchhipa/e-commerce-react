@@ -25,9 +25,9 @@ import ProductProvider from "./services/ProductContextApi";
 const App = () => {
   return (
     <div>
-     
+      <ProductProvider>
         <Routes>
-          <ProductProvider>
+         
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/" element={<LoginPage />} />
           <Route element={<MainLayout />}>
@@ -54,9 +54,9 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacypolicy" element={<PrivacyPolicyPage />} />{" "}
           </Route>
-          </ProductProvider>
+        
         </Routes>
-
+  </ProductProvider>
     </div>
   );
 };

@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../assets/components/Navbar";
-import Footer from "../assets/components/Footer";
+// import Navbar from "../assets/components/Navbar";
+// import Footer from "../assets/components/Footer";
 
 const Returns = () => {
   return (
     <div className="bg-blue-100">
-        <Navbar/>
+        {/* <Navbar/> */}
       <section className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
@@ -94,7 +94,7 @@ const Returns = () => {
           </div>
         </div>
       </section>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 };

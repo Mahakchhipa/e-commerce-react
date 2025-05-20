@@ -1,11 +1,11 @@
 import React from "react";
-import NavBar from "../assets/components/Navbar";
-import Footer from "../assets/components/Footer";
+// import NavBar from "../assets/components/Navbar";
+// import Footer from "../assets/components/Footer";
 
 const PrivacyPolicyPage = () => {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">
           Privacy Policy
@@ -102,7 +102,7 @@ const PrivacyPolicyPage = () => {
         </div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
