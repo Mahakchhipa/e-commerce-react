@@ -21,13 +21,13 @@ import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import FAQ from "./pages/FAQ";
 import productdata from "../src/utility/data.json";
 import MainLayout from "./layout/MainLayout";
-import ProductProvider from "./services/ProductContextApi";
+import { ProductProvider } from "./services/ProductContextApi";
+
 const App = () => {
   return (
     <div>
       <ProductProvider>
         <Routes>
-         
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/" element={<LoginPage />} />
           <Route element={<MainLayout />}>
@@ -54,9 +54,8 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacypolicy" element={<PrivacyPolicyPage />} />{" "}
           </Route>
-        
         </Routes>
-  </ProductProvider>
+      </ProductProvider>
     </div>
   );
 };
