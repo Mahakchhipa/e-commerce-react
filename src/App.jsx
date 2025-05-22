@@ -22,14 +22,18 @@ import FAQ from "./pages/FAQ";
 import productdata from "../src/utility/data.json";
 import MainLayout from "./layout/MainLayout";
 import { ProductProvider } from "./services/ProductContextApi";
+import ErrorPage from "./pages/ErrorPage";
 
 const App = () => {
+  
   return (
     <div>
       <ProductProvider>
         <Routes>
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/" element={<LoginPage />} />
+          <Route path="/not-found" element={<ErrorPage />} />
+          <Route path="*" element={<ErrorPage />} />
           <Route element={<MainLayout />}>
             {" "}
             <Route
