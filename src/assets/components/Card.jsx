@@ -5,11 +5,14 @@ const Card = () => {
     <div>
       <div className="max-w-xs bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
         <div className="relative w-md">
-         <Link to="/product">  <img
-            className="size-56"
-            src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1738681097/Croma%20Assets/Large%20Appliances/Air%20Cooler/Images/312923_0_qe9sdw.png"
-            alt="Product Image"
-          /></Link>
+          <Link to="/product">
+            {" "}
+            <img
+              className="size-56"
+              src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1738681097/Croma%20Assets/Large%20Appliances/Air%20Cooler/Images/312923_0_qe9sdw.png"
+              alt="Product Image"
+            />
+          </Link>
           <span className="absolute top-2 left-2 bg-red-600 text-white text-xs font-semibold px-2 py-1 rounded">
             25% OFF
           </span>

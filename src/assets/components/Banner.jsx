@@ -22,7 +22,7 @@ const Banner = () => {
           </div>
           <div className="relative">
             <img
-             src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1746190988/Croma%20Assets/CMS/LP%20Page%20Banners/2025/campaigns/Summer%20saving%20days%20april/Day%203%2C4/Desktop/LP_Summer_Category_Fans_3May2025_zjbesr.png"
+              src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1746190988/Croma%20Assets/CMS/LP%20Page%20Banners/2025/campaigns/Summer%20saving%20days%20april/Day%203%2C4/Desktop/LP_Summer_Category_Fans_3May2025_zjbesr.png"
               className="w-full rounded-xl shadow-lg"
             />
           </div>
